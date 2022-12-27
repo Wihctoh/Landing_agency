@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/Roboto-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+
+$black-color: #000;
+$pink-color: #f1eafb;
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1400px;
+  margin: 0 auto;
+  background-color: #f9f7f3;
+}
+
+// ---------------------header------------------------
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .img-logo {
+    background-image: url(./assets/img-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 104px;
+    height: 40px;
+  }
+
+  nav {
+    display: flex;
+
+    p {
+      font: 400 16px "Roboto";
+      color: $black-color;
+      border-left: 1px solid $black-color;
+      border-right: 1px solid $black-color;
+      padding: 20px 40px;
+    }
+    .btn {
+      background-color: $pink-color;
+      width: 200px;
+      text-align: center;
+      padding: 22px 0 20px;
+      color: #9f4a19;
+    }
+  }
+}
+
+// ---------------------section start-agency------------------------
+
+.start-agency {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+
+  .left-side {
+    width: 424px;
+
+    h1 {
+      font: 400 70px "Roboto";
+      color: $black-color;
+    }
+
+    p {
+      font: 400 18px "Roboto";
+      color: $black-color;
+      width: 412px;
+
+      &:last-child {
+        text-align: center;
+        font: 400 14px "Roboto";
+        color: #808080;
+        width: 262px;
+        padding-top: 15px;
+      }
+      &:not(:last-child) {
+        padding-top: 31px;
+      }
+    }
+
+    .btn-free {
+      font: 400 16px "Roboto";
+      color: #9f4a19;
+      width: 263px;
+      background-color: $pink-color;
+      text-align: center;
+      padding: 11px 0 13px;
+      border: 1px solid #000000;
+      margin-top: 30px;
+    }
+
+    .btn-demo {
+      font: 400 16px "Roboto";
+      color: #9f4a19;
+      width: 263px;
+      background-color: #ffff;
+      text-align: center;
+      padding: 11px 0 13px;
+      border: 1px solid #000000;
+      margin-top: 12px;
+    }
+  }
+
+  .img {
+    background-image: url(./assets/Frame.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 531px;
+    margin-right: 35px;
+  }
+}
+
+// ---------------------section start-agency------------------------
+
+.phone {
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+
+  .phone-img {
+    background-image: url(./assets/image.png);
+    width: 894px;
+    height: 733px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 155px;
+  }
+}

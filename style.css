@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/Roboto-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 1400px;
+  margin: 0 auto;
+  background-color: #f9f7f3;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .img-logo {
+  background-image: url(./assets/img-logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 104px;
+  height: 40px;
+}
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header nav p {
+  font: 400 16px "Roboto";
+  color: #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  padding: 20px 40px;
+}
+header nav .btn {
+  background-color: #f1eafb;
+  width: 200px;
+  text-align: center;
+  padding: 22px 0 20px;
+  color: #9f4a19;
+}
+
+.start-agency {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 100px;
+}
+.start-agency .left-side {
+  width: 424px;
+}
+.start-agency .left-side h1 {
+  font: 400 70px "Roboto";
+  color: #000;
+}
+.start-agency .left-side p {
+  font: 400 18px "Roboto";
+  color: #000;
+  width: 412px;
+}
+.start-agency .left-side p:last-child {
+  text-align: center;
+  font: 400 14px "Roboto";
+  color: #808080;
+  width: 262px;
+  padding-top: 15px;
+}
+.start-agency .left-side p:not(:last-child) {
+  padding-top: 31px;
+}
+.start-agency .left-side .btn-free {
+  font: 400 16px "Roboto";
+  color: #9f4a19;
+  width: 263px;
+  background-color: #f1eafb;
+  text-align: center;
+  padding: 11px 0 13px;
+  border: 1px solid #000000;
+  margin-top: 30px;
+}
+.start-agency .left-side .btn-demo {
+  font: 400 16px "Roboto";
+  color: #9f4a19;
+  width: 263px;
+  background-color: white;
+  text-align: center;
+  padding: 11px 0 13px;
+  border: 1px solid #000000;
+  margin-top: 12px;
+}
+.start-agency .img {
+  background-image: url(./assets/Frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 531px;
+  margin-right: 35px;
+}
+
+.phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 96px;
+}
+.phone .phone-img {
+  background-image: url(./assets/image.png);
+  width: 894px;
+  height: 733px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 155px;
+}
