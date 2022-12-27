@@ -6,6 +6,10 @@
 
 $black-color: #000;
 $pink-color: #f1eafb;
+$white-color: #ffff;
+$orange-color: #9f4a19;
+$grey-color: #808080;
+$background-color:#f9f7f3;
 
 * {
   padding: 0;
@@ -18,7 +22,7 @@ $pink-color: #f1eafb;
 body {
   width: 1400px;
   margin: 0 auto;
-  background-color: #f9f7f3;
+  background-color: $other-color;
 }
 
 // ---------------------header------------------------
@@ -51,7 +55,7 @@ header {
       width: 200px;
       text-align: center;
       padding: 22px 0 20px;
-      color: #9f4a19;
+      color: $orange-color;
     }
   }
 }
@@ -79,7 +83,7 @@ header {
       &:last-child {
         text-align: center;
         font: 400 14px "Roboto";
-        color: #808080;
+        color: $grey-color;
         width: 262px;
         padding-top: 15px;
       }
@@ -90,23 +94,23 @@ header {
 
     .btn-free {
       font: 400 16px "Roboto";
-      color: #9f4a19;
+      color: $orange-color;
       width: 263px;
       background-color: $pink-color;
       text-align: center;
       padding: 11px 0 13px;
-      border: 1px solid #000000;
+      border: 1px solid $black-color;
       margin-top: 30px;
     }
 
     .btn-demo {
       font: 400 16px "Roboto";
-      color: #9f4a19;
+      color: $orange-color;
       width: 263px;
-      background-color: #ffff;
+      background-color: $white-color;
       text-align: center;
       padding: 11px 0 13px;
-      border: 1px solid #000000;
+      border: 1px solid $black-color;
       margin-top: 12px;
     }
   }

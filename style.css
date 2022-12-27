@@ -94,7 +94,7 @@ header nav .btn {
   background-color: #f1eafb;
   text-align: center;
   padding: 11px 0 13px;
-  border: 1px solid #000000;
+  border: 1px solid #000;
   margin-top: 30px;
 }
 .start-agency .left-side .btn-demo {
@@ -104,7 +104,7 @@ header nav .btn {
   background-color: white;
   text-align: center;
   padding: 11px 0 13px;
-  border: 1px solid #000000;
+  border: 1px solid #000;
   margin-top: 12px;
 }
 .start-agency .img {
