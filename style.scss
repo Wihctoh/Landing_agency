@@ -9,7 +9,7 @@ $pink-color: #f1eafb;
 $white-color: #ffff;
 $orange-color: #9f4a19;
 $grey-color: #808080;
-$background-color:#f9f7f3;
+$background-color: #f9f7f3;
 
 * {
   padding: 0;
@@ -87,6 +87,7 @@ header {
         width: 262px;
         padding-top: 15px;
       }
+
       &:not(:last-child) {
         padding-top: 31px;
       }
