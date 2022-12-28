@@ -44,9 +44,17 @@ header nav {
 header nav p {
   font: 400 16px "Roboto";
   color: #000;
-  border-left: 1px solid #000;
   border-right: 1px solid #000;
   padding: 20px 40px;
+}
+header nav p:first-child {
+  border-left: 1px solid #000;
+}
+header nav p:hover {
+  font: 400 17px "Roboto";
+  background-color: #DEB887;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 header nav .btn {
   background-color: #f1eafb;
@@ -54,6 +62,13 @@ header nav .btn {
   text-align: center;
   padding: 22px 0 20px;
   color: #9f4a19;
+}
+header nav .btn:hover {
+  background-color: #BDB76B;
+  color: #000;
+  font-size: 20px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .start-agency {

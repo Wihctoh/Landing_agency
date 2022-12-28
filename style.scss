@@ -22,7 +22,8 @@ $background-color: #f9f7f3;
 body {
   width: 1400px;
   margin: 0 auto;
-  background-color: $other-color;
+  background-color: $background-color;
+  // background-color:red;
 }
 
 // ---------------------header------------------------
@@ -46,9 +47,18 @@ header {
     p {
       font: 400 16px "Roboto";
       color: $black-color;
-      border-left: 1px solid $black-color;
       border-right: 1px solid $black-color;
       padding: 20px 40px;
+
+      &:first-child{
+        border-left: 1px solid $black-color;
+      }
+
+      &:hover{
+        font: 400 17px "Roboto";
+        background-color: #DEB887;
+        transition: 0.5s;
+      }
     }
     .btn {
       background-color: $pink-color;
@@ -56,6 +66,13 @@ header {
       text-align: center;
       padding: 22px 0 20px;
       color: $orange-color;
+
+      &:hover{
+        background-color: #BDB76B;
+        color: $black-color;
+        font-size: 20px;
+        transition: 0.1s;
+      }
     }
   }
 }
